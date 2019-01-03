@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: Captain;
+	font-weight: 100;
+	src:url(../fonts/American%20Captain.ttf)
+}
+#menu{
+font-family: "Captain";
+padding-top: 30px;
+margin-bottom: 0;
+font-size: 48px;
+text-align: center;	
+}
+#menu li{
+display: inline;
+margin: 0px 30px 0px 0px;
+}
+#menu a{
+text-decoration: none;
+color: white;
+text-shadow: -2px -3px 5px black;
+}
+#menu a:hover {
+color: white;
+text-shadow: -2px -3px 5px #F8FBE3;	
+}
+body{
+background: url(../pics/webbg.png) top right no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+#shell{
+border: solid, 1px, #000000;
+margin-left: auto;
+margin-right: auto;
+width: 1100px;	
+}	
+#banner {
+height: 300px;
+}
+#vidframe{
+background-image:url(../pics/ds.png);
+background-position:center;
+background-repeat:no-repeat;
+padding: 16.5% 19% 20% 19.5%;
+margin-top: 0%;
+}
+#mid{
+	margin: 20px;
+}
+#columnLeft {
+float: left;
+width:360px;
+display: block;
+text-align: center;
+}
+#columnMiddle {
+float: left;
+width: 360px;
+display: block;
+text-align: center;
+}
+#columnRight {
+float: right;
+width: 360px;
+display: block;
+text-align: center;
+}
+#rowBottom{
+clear: both;
+padding-top:20px;
+padding-bottom:10px;
+border-top-width: 2px;
+border-top-style: solid;
+border-top-color:#221F1C;
+text-align: center;
+font-family:"Gill Sans", sans-serif;
+font-size: 12px;
+}
+p.home{
+font-family: "Captain";
+font-size: 28px;
+color: white;
+text-shadow: -2px -3px 5px black;
+}
+#featured {
+font-family: "helvetica";
+font-size: 14px;
+color: white;
+width: 600px;
+display: block;
+float: left;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+#featured h2{
+font-family: "helvetica";
+font-size: 18px;
+color: white;
+text-shadow: -2px -3px 5px black;
+display: inline;
+}
+#rowBottom li{
+display: inline;
+margin: 0px 30px 0px 0px;
+}
+#rowBottom a{
+text-decoration: none;
+font-size: 12px;
+color: white;
+text-shadow: -2px -3px 5px black;
+}
+#para h2{
+font-family: "Captain";
+font-size: 36px;
+text-align: center;	
+color: white;
+text-shadow: -2px -3px 5px black;
+}
+#para p{
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: 14px;
+}
+#rollcage {
+margin-top: 90px;	
+}
+#rollcage h1{
+font-family: "Captain";
+font-size: 36px;
+text-align: center;	
+color: white;
+text-shadow: -2px -3px 5px black;
+}
+#form {
+color: white;
+font-family:Helvetica, sans-serif;
+padding: 30px;
+width: 335px;
+float: left;
+}
+fieldset {
+border: 0;	
+}
+fieldset label{
+float: left;  
+width: 320px;  
+margin-right: 16px;  
+text-align: right; 
+padding: 4px;
+}
+#image{
+float:right;	
+}
+.head{
+font-family: "Captain";
+font-size: 36px;
+text-align: center;	
+color: white;
+text-shadow: -2px -3px 5px black;	
+margin-top: 90px;
+}
